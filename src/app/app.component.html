@@ -9,7 +9,10 @@
     <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Acasa</a>
     <a routerLink="/auctions" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Licitatie</a>
     <a routerLink="/sell" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Vanzari</a>
-    <a routerLink="/login" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Conectare</a>
+    <a 
+      routerLink="/login" 
+      [class.active]="isAuthRoute()"
+    >Conectare</a>
     <button class="icon-button">
       <span class="icon-bell"></span>
     </button>
