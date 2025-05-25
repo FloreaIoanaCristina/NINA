@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+@import '_variables.scss';
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5F5;
+  }
+
+.primary-button {
+    padding: 10px; 
+    background: $accent-color; 
+    border-radius: 8px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+    font-size: 32px;
+    font-weight: 600;
+    color: $primary-color;
+}
+
+.secondary-button {
+    padding: 10px; 
+    background: $primary-color; 
+    border-radius: 8px; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    display: inline-flex;
+    font-size: 24px;
+    font-weight: 600;
+    color: white;
+}
+  

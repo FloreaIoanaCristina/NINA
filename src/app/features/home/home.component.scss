@@ -1,0 +1,30 @@
+@import '../../../styles.scss';
+
+.background-image {
+    margin: 0;
+    background-image: url('/assets/images/house-bg.png'); 
+    background-size: cover;    
+    background-position: center; 
+    background-repeat: no-repeat; 
+    width: 100%; 
+    padding: 3rem; 
+
+    .subtitle{
+        color: white; 
+        padding: 0;
+    }         
+}
+
+.title {
+    color: white; 
+    font-size: 48px; 
+    font-weight: 600;
+}
+
+.subtitle {
+    color: $primary-color;
+    padding: 3rem;
+    font-size: 32px; 
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}

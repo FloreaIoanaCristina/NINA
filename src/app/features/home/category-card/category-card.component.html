@@ -1,0 +1,9 @@
+<div class="card-row">
+    <div *ngFor="let category of categories" div class="card-container">
+        <div class="icon icon-size" [ngClass]="'icon-' + category.icon"></div>
+        <div class="category-title">{{ category.name }}</div>
+        <button class="secondary-button" (click)="goToAuctions(category.path)">
+          Vezi licitatii
+        </button>
+    </div>
+</div>

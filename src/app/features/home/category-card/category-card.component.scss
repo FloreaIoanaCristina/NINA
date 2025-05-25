@@ -1,0 +1,31 @@
+@import '../../../../styles.scss';
+
+.card-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;      
+    justify-content: center;
+}
+
+.card-container {
+    background-color: white;
+    display: flex;
+    height:250px;
+    width:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.category-title {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    word-wrap: break-word;
+    margin-block: 20px;
+}
+
+.icon-size {
+    font-size: 40px;
+}

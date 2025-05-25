@@ -1,0 +1,39 @@
+{
+    "categories": [
+      {
+        "name": "Artă",
+        "icon":"art",
+        "path":"art"
+      },
+      {
+        "name": "Fashion",
+        "icon":"fashion",
+        "path":"fashion"
+      },
+      {
+        "name": "Construcții",
+        "icon":"construction",
+        "path":"construction"
+      },
+      {
+        "name": "Cărți",
+        "icon":"books",
+        "path":"books"        
+      },
+      {
+        "name": "Automobile",
+        "icon":"automobiles",
+        "path":"automobiles"        
+      },
+      {
+        "name": "Muzică",
+        "icon":"music",
+        "path":"music"        
+      },
+      {
+        "name": "Altele",
+        "icon":"others",
+        "path":"others"        
+      }
+    ]
+  }

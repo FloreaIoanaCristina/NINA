@@ -1,0 +1,77 @@
+@import '../styles.scss';
+
+.navbar {
+  background-color: $primary-color;
+  padding: 1rem;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 40px;
+
+    .icon-nina-logo {
+      color: white;
+      font-size: 36px;
+      margin-left: 0.5rem;
+    }
+
+    .logo-text {
+      font-weight: bold;
+    }
+  }
+
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.icon-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+
+  .icon-bell {
+    font-size: 28px;
+    color: white;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  margin-inline: 3.5rem;
+  font-size: 32px;
+}
+
+a.active {
+  color: $primary-color;
+  font-weight: bold;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: inline-flex;
+  margin-inline: 3.5rem;
+  font-size: 32px;
+}
