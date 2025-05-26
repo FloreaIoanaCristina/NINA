@@ -10,7 +10,7 @@ form {
     .name_price_date {
         display: flex;
         flex-direction: row;
-        
+        gap: 8rem
     }
   
     input {
@@ -29,5 +29,33 @@ form {
         font-size: 1.1rem;
         cursor: pointer;
         margin-top: 1rem;
+        
     }
+
+    #image_loader {
+        width: 100%;
+        max-width: 50%; /* or whatever width works for your layout */
+        max-height: 50%;
+    }
+
+
+    #image_loader input[type="file"] {
+        width: 100%; /* or a fixed value like 300px */
+        height: 5rem; /* or a fixed value like 300px */
+        padding: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+
+    #describtion textarea {
+        width: 100%;
+        padding: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+        resize: none;
+        min-height: 120px;
+    }
+
 }

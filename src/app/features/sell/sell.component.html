@@ -24,9 +24,9 @@
         <input type="file" (change)="onUpload($event)" [(ngModel)]="imagine" placeholder="Incarca o imagine">
     </div>
 
-    <div id="describtion">
+    <div id="description">
         <h3>Descriere</h3>
-        <input type="text" [(ngModel)]="descriere">
+        <textarea rows="50" [(ngModel)]="descriere"></textarea>
     </div>
 
     <div id="submit">
