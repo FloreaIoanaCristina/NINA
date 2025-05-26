@@ -1,3 +1,7 @@
+h1{
+    padding: 0.5rem 1.8rem;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -13,8 +17,12 @@ form {
         gap: 8rem
     }
 
-    #date_picker {
-        gap: 0.6rem;
+    #date_picker{
+        width: 80%;
+    }
+
+    #date_inputs {
+        gap: 2rem;
     }
   
     input {
@@ -60,12 +68,10 @@ form {
 
     #description textarea {
         width: 100%;           /* takes full width of container */
-        padding: 0.2rem;
+        padding: 0.8rem;
         font-size: 1rem;
         border: 1px solid #ccc;
         border-radius: 6px;
         resize: none;          /* prevent resizing */
     }
-
-
 }
