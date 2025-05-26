@@ -32,5 +32,32 @@ export class SellComponent {
 
   onSubmit(event: Event) {
     event.preventDefault();
+
+    if (!this.imagine) {
+      this.storeFormData();
+    } else {
+      const reader = new FileReader();
+      reader.onload = () => {
+        const base64Image = reader.result as string;
+        this.storeFormData(base64Image);
+      };
+      reader.readAsDataURL(this.imagine);
+    }
+  }
+
+  private storeFormData(base64Image?: string): void {
+    const formData = {
+      numeProdus: this.numeProdus,
+      pret: this.pret,
+      perioadaLicitatieStart: this.perioadaLicitatieStart,
+      perioadaLicitatieEnd: this.perioadaLicitatieEnd,
+      descriere: this.descriere,
+      imagineBase64: base64Image || null
+    };
+
+    const uniqueKey = `formData_${Date.now()}`;
+
+    localStorage.setItem(uniqueKey, JSON.stringify(formData));
+    console.log('Form data saved to localStorage');
   }
 }

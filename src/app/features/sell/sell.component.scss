@@ -12,6 +12,10 @@ form {
         flex-direction: row;
         gap: 8rem
     }
+
+    #date_picker {
+        gap: 0.6rem;
+    }
   
     input {
         padding: 0.8rem;
@@ -48,14 +52,20 @@ form {
         font-size: 1rem;
     }
 
-    #describtion textarea {
-        width: 100%;
-        padding: 0.8rem;
+    #description {
+        width: 100%;           /* takes full width of container */
+        max-width: 50%; /* or whatever width works for your layout */
+        max-height: 15%;
+    }
+
+    #description textarea {
+        width: 100%;           /* takes full width of container */
+        padding: 0.2rem;
+        font-size: 1rem;
         border: 1px solid #ccc;
         border-radius: 6px;
-        font-size: 1rem;
-        resize: none;
-        min-height: 120px;
+        resize: none;          /* prevent resizing */
     }
+
 
 }
