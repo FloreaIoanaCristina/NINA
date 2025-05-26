@@ -1,1 +1,14 @@
-<p>login works!</p>
+<div class="auth-container">
+    <h1>Autentifica-te</h1>
+    <form (submit)="onLogin($event)">
+      <input type="email" placeholder="Email" [(ngModel)]="email" name="email" required />
+      <input type="password" placeholder="Parola" [(ngModel)]="password" name="password" required />
+      <button type="submit">Login</button>
+    </form>
+    <div *ngIf="loginError" style="color: red; margin-top: 1rem;">{{ loginError }}</div>
+    <div *ngIf="loginSuccess" style="color: green; margin-top: 1rem;">Login reușit!</div>
+    <p class="switch-link">
+      N-ai deja cont? <a routerLink="/signup">Inregistreaza-te</a>
+    </p>
+  </div>
+  
