@@ -1,0 +1,33 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+
+    .name_price_date {
+        display: flex;
+        flex-direction: row;
+        
+    }
+  
+    input {
+        padding: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+  
+    button {
+        background: #101c2c;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 0.8rem;
+        font-size: 1.1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+    }
+}
