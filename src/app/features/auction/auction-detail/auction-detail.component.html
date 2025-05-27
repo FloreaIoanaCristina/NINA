@@ -3,11 +3,13 @@
     <img [src]="auction.image_link" alt="Auction image">
   </div>
   <div class="auction-info">
-    <h2>{{ auction.name }}</h2>
+    <h2 class="title">{{ auction.name }}</h2>
     <p><strong>Descriere:</strong> {{ auction.description }}</p>
-    <p><strong>Licitația se încheie în:</strong> </p>
+    <div class="counter" >
+      <div class="subtitle"><strong>Licitația se încheie în:</strong></div>
+      <countdown class="subtitle" [config]="countdownConfig"></countdown>
+    </div>
     <button class="primary-button">Plasează ofertă</button>
-
     <div class="seller-rating">
       <strong>Rating vânzător:</strong>
       <span *ngFor="let star of [].constructor(auction.seller_rank)">⭐</span>
