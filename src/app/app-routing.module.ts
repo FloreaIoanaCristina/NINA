@@ -5,10 +5,12 @@ import { HomeComponent } from './features/home/home.component';
 import { LoginComponent } from './features/login/login.component';
 import { SignupComponent } from './features/signup/signup.component';
 import { SellComponent } from './features/sell/sell.component';
+import { AuctionDetailComponent } from './features/auction/auction-detail/auction-detail.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'auctions', component: AuctionComponent },
+  { path: 'auctions/:id', component: AuctionDetailComponent },
   { path: 'sell', component: SellComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },

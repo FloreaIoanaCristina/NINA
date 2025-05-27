@@ -1,1 +1,17 @@
-<p>auction works!</p>
+<div class="header-title">
+   <div class="title">Licitații</div>
+  
+    <div class="search-bar">
+        <div class="search-input-wrapper">
+          <span class="icon-search"></span>
+          <input type="text" placeholder="Cauta..." (input)="onSearchChange($event)" />
+        </div>
+        <button (click)="applyFilters()">Cauta</button>
+    </div>
+</div>
+  
+    <div class="grid">
+      <auction-card
+        [auctions]="filteredAuctions">
+      </auction-card>
+    </div>

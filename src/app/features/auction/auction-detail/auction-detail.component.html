@@ -1,0 +1,25 @@
+<div class="auction-detail" *ngIf="auction">
+  <div class="auction-image">
+    <img [src]="auction.image_link" alt="Auction image">
+  </div>
+  <div class="auction-info">
+    <h2>{{ auction.name }}</h2>
+    <p><strong>Descriere:</strong> {{ auction.description }}</p>
+    <p><strong>Licitația se încheie în:</strong> </p>
+    <button class="primary-button">Plasează ofertă</button>
+
+    <div class="seller-rating">
+      <strong>Rating vânzător:</strong>
+      <span *ngFor="let star of [].constructor(auction.seller_rank)">⭐</span>
+    </div>
+
+    <div class="offer-history">
+      <strong>Istoric oferte</strong>
+      <ul>
+        <li *ngFor="let offer of auction.offer_history">
+          {{ offer.user }} – {{ offer.price }} €
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>

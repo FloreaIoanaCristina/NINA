@@ -1,0 +1,187 @@
+{
+    "auctions": [
+      {
+        "id":1,
+        "name": "Vintage Rolex Watch",
+        "starting_date": "2025-06-01T10:00:00Z",
+        "price": 5000,
+        "description": "A classic Rolex Submariner in excellent condition, circa 1975.",
+        "image_link": "https://www.bobswatches.com/rolex-blog/wp-content/uploads/2019/10/Screen-Shot-2021-03-17-at-3.17.36-PM.jpg",
+        "seller_rank": 5,
+        "category": "fashion",
+        "offer_history": [
+          { "price": 5200, "user": "luxuryBuyer88" },
+          { "price": 5400, "user": "timepieceCollector" }
+        ]
+      },
+      {
+        "id":2,
+        "name": "Signed First Edition of '1984'",
+        "starting_date": "2025-06-03T14:00:00Z",
+        "price": 1200,
+        "description": "Rare signed first edition of George Orwell's dystopian classic.",
+        "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFzlswxvRd2aVwVmuPUFRp3Fwrb_iaZr1UF40bFDJPKy7FyZbr09-tPRaffNbhMeNR3aA&usqp=CAU",
+        "seller_rank": 4,
+        "category": "books",
+        "offer_history": [
+          { "price": 1300, "user": "bookworm91" },
+          { "price": 1350, "user": "rareBookHunter" }
+        ]
+      },
+      {
+        "id":3,
+        "name": "Antique Persian Rug",
+        "starting_date": "2025-06-05T08:00:00Z",
+        "price": 3000,
+        "description": "Handwoven Persian rug from the 19th century with intricate floral patterns.",
+        "image_link": "https://jewelrugs.com/cdn/shop/files/c1732f2b-67d7-5893-90b6-b4765c6aaef9.jpg?v=1722934467&width=2951",
+        "seller_rank": 3,
+        "category": "art",
+        "offer_history": [
+          { "price": 3200, "user": "decorEnthusiast" },
+          { "price": 3500, "user": "antiqueLover42" }
+        ]
+      },
+      { 
+        "id":4,
+        "name": "1967 Ford Mustang",
+        "starting_date": "2025-06-10T09:00:00Z",
+        "price": 25000,
+        "description": "Restored 1967 Mustang in excellent condition, red exterior.",
+        "image_link": "https://cdn.dealeraccelerate.com/octane/1/490/41685/1920x1440/1967-ford-mustang",
+        "seller_rank": 5,
+        "category": "automobiles",
+        "offer_history": [
+          { "price": 25500, "user": "classicCarFan" },
+          { "price": 26000, "user": "muscleManiac" }
+        ]
+      },
+      {
+        "id":5,
+        "name": "Limited Edition Electric Guitar",
+        "starting_date": "2025-06-12T16:00:00Z",
+        "price": 1500,
+        "description": "Fender Stratocaster, signed by Eric Clapton.",
+        "image_link": "https://www.vintageandmodernguitars.co.uk/wp-content/uploads/2023/09/IMG_3089-scaled.jpg",
+        "seller_rank": 4,
+        "category": "music",
+        "offer_history": [
+          { "price": 1600, "user": "axePlayer" },
+          { "price": 1700, "user": "toneChaser" }
+        ]
+      },
+      {
+        "id":6,
+        "name": "Designer Handbag",
+        "starting_date": "2025-06-15T11:00:00Z",
+        "price": 800,
+        "description": "Louis Vuitton limited edition Monogram bag.",
+        "image_link": "https://mygemma.com/cdn/shop/articles/Copy_of_myGemma_Blog_Featured_Image-26_b837bc6c-b35e-48df-888f-826051683fe6.png?v=1696256791",
+        "seller_rank": 3,
+        "category": "fashion",
+        "offer_history": [
+          { "price": 850, "user": "chicChloe" },
+          { "price": 900, "user": "vogueVixen" }
+        ]
+      },
+      {
+        "id":7,
+        "name": "Michelangelo Replica Sculpture",
+        "starting_date": "2025-06-18T13:00:00Z",
+        "price": 10000,
+        "description": "Marble sculpture modeled after Michelangelo’s David.",
+        "image_link": "https://cruiseindustrynews.com/wp-content/uploads/2024/03/david_statue1.jpg.webp",
+        "seller_rank": 5,
+        "category": "art",
+        "offer_history": [
+          { "price": 10500, "user": "renaissanceMan" },
+          { "price": 11000, "user": "galleryCollector" }
+        ]
+      },
+      {
+        "id":8,
+        "name": "Complete Tool Set - 150 pcs",
+        "starting_date": "2025-06-20T07:00:00Z",
+        "price": 350,
+        "description": "Industrial-grade tool set with storage case.",
+        "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv-s8ctD3fsmQeaPb3qMyZ-UQxQH8H9D-ZPw&s",
+        "seller_rank": 4,
+        "category": "construction",
+        "offer_history": [
+          { "price": 375, "user": "toolBoss" },
+          { "price": 400, "user": "fixItFred" }
+        ]
+      },
+      {
+        "id":9,
+        "name": "Harry Potter Boxed Set (Hardcover)",
+        "starting_date": "2025-06-22T17:00:00Z",
+        "price": 200,
+        "description": "Hardcover collector’s edition boxed set of all 7 books.",
+        "image_link": "https://www.mbeckler.org/blog/wp-content/uploads/2016/01/books_in_trunk.jpg",
+        "seller_rank": 2,
+        "category": "books",
+        "offer_history": [
+          { "price": 220, "user": "potterFan21" },
+          { "price": 230, "user": "magicReader" }
+        ]
+      },
+      {
+        "id":10,
+        "name": "Modern Art Canvas - 'Chaos & Order'",
+        "starting_date": "2025-06-25T12:00:00Z",
+        "price": 2200,
+        "description": "Abstract original painting by contemporary artist.",
+        "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6sd6jHvYUOyAtP1syqQMAmVm5HjR1RGOfrA&s",
+        "seller_rank": 4,
+        "category": "art",
+        "offer_history": [
+          { "price": 2300, "user": "colorJunkie" },
+          { "price": 2400, "user": "urbanGallerist" }
+        ]
+      },
+      {
+        "id":11,
+        "name": "Electric Violin with Amp",
+        "starting_date": "2025-06-27T15:00:00Z",
+        "price": 600,
+        "description": "Yamaha electric violin kit, perfect for modern performers.",
+        "image_link": "https://i.ebayimg.com/images/g/y9QAAOSwGk1ktd7w/s-l1200.jpg",
+        "seller_rank": 3,
+        "category": "music",
+        "offer_history": [
+          { "price": 650, "user": "stringVibes" },
+          { "price": 700, "user": "electroBow" }
+        ]
+      },
+      {
+        "id":12,
+        "name": "Vintage Construction Blueprint",
+        "starting_date": "2025-06-29T08:30:00Z",
+        "price": 950,
+        "description": "Original architectural blueprints of a 1920s factory.",
+        "image_link": "https://c8.alamy.com/comp/2AF7H45/a-small-town-church-plans-elevations-1905-old-antique-vintage-print-picture-2AF7H45.jpg",
+        "seller_rank": 4,
+        "category": "construction",
+        "offer_history": [
+          { "price": 975, "user": "archivistAl" },
+          { "price": 1000, "user": "buildHistoryFan" }
+        ]
+      },
+      {
+        "id":13,
+        "name": "Mystery Box of Curiosities",
+        "starting_date": "2025-06-30T20:00:00Z",
+        "price": 150,
+        "description": "A box full of random vintage and antique items. No returns.",
+        "image_link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCvYIIMmc5RXjKgggaK1TOUJmOk14APxJOJQ&s",
+        "seller_rank": 2,
+        "category": "others",
+        "offer_history": [
+          { "price": 175, "user": "curiousGeorge" },
+          { "price": 190, "user": "boxJunkie" }
+        ]
+      }
+    ]
+  }
+  
