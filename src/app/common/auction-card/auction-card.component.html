@@ -1,0 +1,10 @@
+<div class="card-row">
+    <div *ngFor="let auction of auctions" div class="card-container">
+      <img [src]="auction.image_link" alt="Auction Image" class="card-img" />
+      <div class="card-content">
+        <p class="title">{{ auction.name }}</p>
+        <p class="price">{{ auction.price | number:'1.0-0' }} €</p>
+        <button class="bid-button" (click)="goToAuction(auction.id)">Plaseaza oferta</button>
+      </div>
+    </div>
+</div>
