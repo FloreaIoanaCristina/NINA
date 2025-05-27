@@ -1,0 +1,77 @@
+h1{
+    padding: 0.5rem 1.8rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
+    align-items: center;
+
+    .name_price_date {
+        display: flex;
+        flex-direction: row;
+        gap: 8rem
+    }
+
+    #date_picker{
+        width: 80%;
+    }
+
+    #date_inputs {
+        gap: 2rem;
+    }
+  
+    input {
+        padding: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+  
+    button {
+        background: #101c2c;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        padding: 0.8rem;
+        font-size: 1.1rem;
+        cursor: pointer;
+        margin-top: 1rem;
+        
+    }
+
+    #image_loader {
+        width: 100%;
+        max-width: 50%; /* or whatever width works for your layout */
+        max-height: 50%;
+    }
+
+
+    #image_loader input[type="file"] {
+        width: 100%; /* or a fixed value like 300px */
+        height: 5rem; /* or a fixed value like 300px */
+        padding: 0.8rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 1rem;
+    }
+
+    #description {
+        width: 100%;           /* takes full width of container */
+        max-width: 50%; /* or whatever width works for your layout */
+        max-height: 15%;
+    }
+
+    #description textarea {
+        width: 100%;           /* takes full width of container */
+        padding: 0.8rem;
+        font-size: 1rem;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        resize: none;          /* prevent resizing */
+    }
+}

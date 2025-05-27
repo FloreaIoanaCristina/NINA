@@ -1,1 +1,37 @@
-<p>sell works!</p>
+<h1 id="title">Adaugare Produs</h1>
+<form id="sell_form" (submit)="onSubmit($event)">
+
+    <div class="name_price_date">
+        <div id="input_nume">
+            <h3>Nume Produs</h3>
+            <input type="text" [(ngModel)]="numeProdus" placeholder="Nume produs" required />
+        </div>
+
+        <div id="input_pret">
+            <h3>Pret</h3>
+            <input type="number" [(ngModel)]="pret" placeholder="Pret" required />
+        </div>
+
+        <div id="date_picker">
+            <h3>Perioada de licitatie</h3>
+            <div id="date_inputs">
+                <input type="date" [(ngModel)]="perioadaLicitatieStart" required />
+                <input type="date" [(ngModel)]="perioadaLicitatieEnd" required />
+            </div>
+        </div>
+    </div>
+
+    <div id="image_loader">
+        <h3>Imagine</h3>
+        <input type="file" (change)="onUpload($event)" [(ngModel)]="imagine" placeholder="Incarca o imagine">
+    </div>
+
+    <div id="description">
+        <h3>Descriere</h3>
+        <textarea rows="50" [(ngModel)]="descriere"></textarea>
+    </div>
+
+    <div id="submit">
+        <button type="submit">Submit</button>
+    </div>
+</form>
